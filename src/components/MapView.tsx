@@ -3,7 +3,8 @@ import DeckGL from '@deck.gl/react';
 import { ColumnLayer } from '@deck.gl/layers';
 import Map from 'react-map-gl/mapbox';
 import { useStore } from '../store/useStore';
-import 'mapbox-gl/dist/mapbox-gl.css';
+// import 'mapbox-gl/dist/mapbox-gl.css';
+
 
 const INITIAL_VIEW_STATE = {
   longitude: 78.9629,
@@ -15,6 +16,7 @@ const INITIAL_VIEW_STATE = {
 
 export const MapView: React.FC = () => {
   const { data, filteredData } = useStore();
+  //token is in list
   console.log(process.env.REACT_APP_MAPBOX_TOKEN);
 
   const displayData =
