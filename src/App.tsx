@@ -12,9 +12,12 @@ const App: React.FC = () => {
   }, []);
 
   return (
-    <div style={{ display: 'flex', height: '100vh' }}>
-      <Sidebar />
-      <div style={{ flex: 1 }}>
+    <div style={{ display: 'flex', height: '100vh', width: '100vw' }}>
+      <div style={{ width: 280, flexShrink: 0 }}>
+        <Sidebar />
+      </div>
+  
+      <div style={{ flex: 1, position: 'relative' }}>
         <MapView />
       </div>
     </div>

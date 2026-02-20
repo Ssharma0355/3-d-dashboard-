@@ -44,7 +44,7 @@ export const MapView: React.FC = () => {
   ], [displayData]);
 
   return (
-    <div style={{ height: '100%', width: '100%' }}>
+    <div style={{ height: '100%', width: '100%', position: 'relative' }}>
       <DeckGL
         initialViewState={INITIAL_VIEW_STATE}
         controller={true}
