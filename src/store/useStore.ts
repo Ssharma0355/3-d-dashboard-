@@ -47,5 +47,6 @@ export const useStore = create<State>((set, get) => ({
     }, 2000);
 
     return () => clearInterval(interval);
+    
   }
 }));
