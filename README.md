@@ -1,48 +1,59 @@
-# Getting Started with Create React App
+# 3D Dashboard – Production Grade Frontend Assignment
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A high-performance 3D geospatial dashboard built with React + TypeScript.  
+The application visualizes 10,000–50,000 real-time data points using WebGL rendering.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🚀 Tech Stack
 
-### `npm start`
+- React + TypeScript
+- Deck.gl (WebGL rendering)
+- Mapbox (3D Map)
+- Zustand (Global State Management)
+- Vite / CRA
+- React Hooks + Memoization
+- Performance Optimizations
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+---
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## ✨ Features
 
-### `npm test`
+- 3D column visualization
+- 10,000–50,000 generated data points
+- Real-time simulation updates
+- Category-based filtering
+- Global state management
+- Smooth animated transitions
+- Optimized rendering using memoization
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## 📊 Data Simulation
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Data is programmatically generated.
+- Each data point contains:
+  - Latitude
+  - Longitude
+  - Height value
+  - Category (Active / Idle / In-Transit)
+- Real-time updates simulate live system behavior.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## ⚡ Performance Optimizations
 
-### `npm run eject`
+- useMemo for layer recalculation
+- WebGL-based rendering via Deck.gl
+- Transition animations instead of full re-render
+- Controlled state updates via Zustand
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+---
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 🛠 Setup Instructions
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+### 1️⃣ Clone the Repository
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-# 3-d-dashboard-
-# 3-d-dashboard-
+```bash
+git clone https://github.com/Ssharma0355/3d-dashboard-.git
+cd 3d-dashboard
